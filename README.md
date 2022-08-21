@@ -9,7 +9,7 @@
   - Thread create/update/delete logging.
   - Server update logging.
   - Member joining/leaving logging.
-  - Automod logging.
+  - Auto moderation logging.
 - **Auto Moderation**
   - Anti profanity protection.
   - Anti link protection.
