@@ -1,2 +1,49 @@
-# Revert-Hometown-Documentation
-Documentaion for using Revert Hometown.
+# About
+  Revert Hometown is a multi purpose bot with various commands like logging, auto moderation, welcome and leave message, tickets, suggestions, auto role, voice role, and more.
+# Features
+- **Advanced Logging**
+  - Message edit/delete logging.
+  - Member update/ban/unban/kick logging.
+  - Role create/update/delete logging.
+  - Channel create/update/delete logging.
+  - Thread create/update/delete logging.
+  - Server update logging.
+  - Member joining/leaving logging.
+  - Automod logging.
+- **Auto Moderation**
+  - Anti profanity protection.
+  - Anti link protection.
+  - Anti spam protection.
+  - Anti caps protection.
+  - Mention spam protection.
+  - Attachment spam protection.
+- **Welcome and Leave Messages**
+  - Custom welcome and leave message.
+  - Variety of variables.
+- **Ticket**
+  - Create, save, close or delete a ticket.
+  - Create ticket panel.
+  - Add or remove access from a member.
+  - Custom message displayed in tickets
+- **Suggestions**
+  - Approve or deny a member's suggestion.
+  - Allow members to send suggestions anonymously.
+- **Nickname Filter**
+  - Automatically bans the member with blaklisted nicknames.
+  - Custom blacklisted nicknames
+- **Account Age**
+  - Automatically bans the member with account age less than 7 days (customizable).
+- **Auto Roles**
+  - A role which will be assigned to members on joining the server.
+  - Seprate roles for bots and humans.
+- **Voice Roles**
+  - A role which will be assigned to members on joining Voice channels.
+- **Auto Purge**
+  - New messages sent in the mentioned channel are deleted after certain duration (customizable).
+- **Extras**
+  - Ignore a member or channel from using the bot commands.
+  - Enable or disable one or more commands.
+  - Voice moderation commands (voice deafen, undeafen, mute, unmute, kick, lock, unlock).
+  - Channel (create, edit or delete), role (create, edit or delete) and webhook (create, info or delete) management commands. **Tip**: You can also create a temporary channel or a role.
+  - Server lock and unlock.
+  - Moderation commands like warn, unwarn, mute, unmute ban, soft-ban, mass-ban, kick, mass-kick, give role, remove role, and more!
