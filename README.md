@@ -47,3 +47,5 @@
   - Channel (create, edit or delete), role (create, edit or delete) and webhook (create, info or delete) management commands. **Tip**: You can also create a temporary channel or a role.
   - Server lock and unlock.
   - Moderation commands like warn, unwarn, mute, unmute ban, soft-ban, mass-ban, kick, mass-kick, give role, remove role, and more!
+# Support
+  - [Discord Support Server](https://discord.gg/K4BsF4NA3w)
