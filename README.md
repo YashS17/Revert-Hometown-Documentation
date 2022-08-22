@@ -4,7 +4,7 @@
     - **Syntax**: `automod anti-profanity <enable | punishment | punish-count | blacklist | whitelist | ignore | unignore | show | disable>`
   - **Anti Link**: Removes the message of members when they post a link.
     - **Syntax**: `automod anti-link <enable | punishment | whitelist | blacklist | ignore | unignore | show | disable>`
-  - **Anti Caps**: Removes the message of members that have a 70% of their characters capitalized.
+  - **Anti Caps**: Removes the message of members that have 70% of their characters capitalized.
     - **Syntax**: `automod anti-caps <enable| punishment | ignore | unignore | show | disable>`
   - **Anti Spam**: Removes the message of members when they spam. Triggers when a member sends 5 messages during a 5 seconds timespan.
     - **Syntax**: `automod anti-spam <enable | punishment | ignore | unignore | show | disable>`
