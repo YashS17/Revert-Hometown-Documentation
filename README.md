@@ -15,7 +15,7 @@
 ## Configurations
   - Ignore a channel/member/role for each auto moderation activity.
   - Set different punishments for each auto moderation activity.
-  - Customisable the mute duration.
+  - Customisable mute duration.
   - Add a custom blacklisted word.
   - Add a custom whitelisted link.
 # Logging
