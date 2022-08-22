@@ -74,6 +74,25 @@
   - Create a ticket panel (`ticket-config panel <create | show | delete>`).
   - Custom message which will be displayed in the ticket.
   - Add/remove access of a member from the ticket.
+# Suggestions
+## Commands
+  - **Suggestions**: Enable or disable suggestions in the server.
+    - **Syntax**: `suggestions <set | approve | deny | anonymous | show | disable>`
+## Configuration
+  - Approve or deny a member's suggestion.
+  - Allow members to send suggestions anonymously.
+# Nickname Filter
+## Commands
+  - **Nickname Filter**: Members joining the server with blacklisted nicknames are automatically banned from the server.
+    - **Syntax**: `nickname-filter <enable | blacklist | whitelist | show | disable>`
+## Configuration
+  - Add a blacklisted nickname (`nickname-filter blacklist <word>`).
+# Account Age
+## Commands
+  - **Account Age**: Members joining the server with account age less than 7 days are banned automatically.
+    - **Syntax**: `account-age <enable | threshold | show | disable>`
+## Configuration
+  - Customisable account age threshold.
 # Auto Roles
 ## Commands
   - **Auto Role**: A role which will be assigned to humans/bots on joining the server.
@@ -87,7 +106,7 @@
     - **Syntax**: `voice-role <add | show | remove>`
 # Auto Purge
 ## Commands
-  - **Auto Purge**: New messages sent in the mentioned channel are deleted after certain duration.
+  - **Auto Purge**: New messages sent in a channel are deleted after certain duration.
     - **Syntax**: `auto-purge <enable | show | disable>`
 ## Configuration
   - Customisable duration after which the message will get deleted.
