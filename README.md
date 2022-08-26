@@ -95,7 +95,7 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - **Account Age**: Members joining the server with account age less than 7 days are banned automatically.
     - **Syntax**: `account-age <enable | threshold | show | disable>`
 ### Configuration
-  - Customisable account age threshold.
+  - Customisable account age threshold (`account-age threshold days`).
 ## Auto Roles
 ### Commands
   - **Auto Role**: A role which will be assigned to humans/bots on joining the server.
