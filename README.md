@@ -113,3 +113,10 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
     - **Syntax**: `auto-purge <enable | show | disable>`
 ### Configuration
   - Customisable duration after which the message will get deleted.
+## Auto Responder
+### Commands
+  - **auto-responder**: Trigger a auto responder
+    - **Syntax**: `auto-responder <create | strict | startswith | endswith | toggle | list | edit | delete>`
+### Configurations
+  - Create any type of wildcard (`strict`, `startswith` and `endswith`).
+  - Enable/disable a auto responder.
