@@ -70,9 +70,9 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
 ## Ticket
 ### Commands
   - **Ticket Config**: Ticket configuration of the server.
-    - **Syntax**: `ticket-config <enable | show | panel | add-access | remove-access | rename | disable>`
+    - **Syntax**: `ticket-config <enable | message | panel | add-access | remove-access | rename | show | disable>`
   - **Ticket**: Create, save, close or delete a ticket.
-    - **Syntax**: `ticket <open | transcript | close | delete>`
+    - **Syntax**: `ticket <open | transcript | close | reopen | delete>`
 ### Configurations
   - Create a ticket panel (`ticket-config panel <create | show | delete>`).
   - Custom message which will be displayed in the ticket.
