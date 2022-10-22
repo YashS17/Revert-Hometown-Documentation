@@ -136,4 +136,4 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - `(server.name)`: Server's name.
   - `(server.member_count)`: Server's member count.
 ### Configuration
-  - Set a custom message[^1].
+  - Set a custom message.
