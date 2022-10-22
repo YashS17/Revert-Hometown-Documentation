@@ -49,7 +49,7 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - Customisable delay after which the role will be assigned to the members.
 ## Command Enable/Disable
   - **command**: Enable/disable a command.
-    - **Syntax**: `command <enable | show | disable>
+    - **Syntax**: `command <enable | show | disable>`
 ## Logging
 ### Commands
   - **message-delete**: Triggers the event when a message is deleted.
