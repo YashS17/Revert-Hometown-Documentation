@@ -28,26 +28,27 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - Add a custom blacklisted word (`automod anti-profanity blacklist <word>`).
   - Add a custom whitelisted link (`automod anti-link whitelist <link>`).
 ## Auto Purge
-### Commands
+### Command
   - **auto-purge**: New messages sent in a channel are deleted after certain duration.
     - **Syntax**: `auto-purge <enable | show | disable>`
 ### Configuration
   - Customisable duration after which the message will get deleted.
 ## Auto Responder
-### Commands
+### Command
   - **auto-responder**: Trigger a auto responder
     - **Syntax**: `auto-responder <create | strict | startswith | endswith | toggle | list | edit | delete>`
 ### Configurations
   - Create any type of wildcard (`strict`, `startswith` and `endswith`).
   - Enable/disable a auto responder.
 ## Auto Roles
-### Commands
+### Command
   - **auto-role**: A role which will be assigned to humans/bots on joining the server.
     - **Syntax**: `auto-role <add | delay | show | remove>`
 ### Configurations
   - Different roles for bots and humans.
   - Customisable delay after which the role will be assigned to the members.
 ## Command Enable/Disable
+### Command
   - **command**: Enable/disable a command.
     - **Syntax**: `command <enable | show | disable>`
 ## Ignore Channel/Member
@@ -87,19 +88,21 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - Detects new member's (to Discord) joining the server.
   - Disable all the logging events with one command (`logging disable-all`).
 ## Moderator Role
+### Command
   - **mod-role**: Add a moderator role which will allow members to use all the moderation commands without having Manage Server permission.
     - **Syntax**: `mod-role <set | show | remove>`
 ## Muted Role
+### Command
   - **muted-role**: Add a muted role which will be assigned to members when muted.
     - **Syntax**: `muted-role <set | create | show | remove>`
 ## Nickname Filter
-### Commands
+### Command
   - **nickname-filter**: Members joining the server with blacklisted nicknames are automatically banned from the server.
     - **Syntax**: `nickname-filter <enable | blacklist | whitelist | show | disable>`
 ### Configuration
   - Add a blacklisted nickname (`nickname-filter blacklist <word>`).
 ## Suggestions
-### Commands
+### Command
   - **suggestions**: Enable or disable suggestions in the server.
     - **Syntax**: `suggestions <set | approve | deny | delete | anonymous | show | disable>`
 ### Configuration
@@ -116,7 +119,7 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - Custom message which will be displayed in the ticket.
   - Add/remove access of a member from the ticket.
 ## Voice Roles
-### Commands
+### Command
   - **voice-role**: A role which will be assigned to members on joining Voice Channels.
     - **Syntax**: `voice-role <add | show | remove>`
 ## Welcome and Leave
