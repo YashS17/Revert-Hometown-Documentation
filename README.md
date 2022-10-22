@@ -86,6 +86,12 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - Specific channel for each event.
   - Detects new member's (to Discord) joining the server.
   - Disable all the logging events with one command (`logging disable-all`).
+## Moderator Role
+  - **mod-role**: Add a moderator role which will allow members to use all the moderation commands without having Manage Server permission.
+    - **Syntax**: `mod-role <set | show | remove>`
+## Muted Role
+  - **muted-role**: Add a muted role which will be assigned to members when muted.
+    - **Syntax**: `muted-role <set | create | show | remove>`
 ## Nickname Filter
 ### Commands
   - **nickname-filter**: Members joining the server with blacklisted nicknames are automatically banned from the server.
