@@ -50,6 +50,11 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
 ## Command Enable/Disable
   - **command**: Enable/disable a command.
     - **Syntax**: `command <enable | show | disable>`
+## Ignore Channel/Member
+  - **ignore-channel**: Ignore a channel from using bot commands.
+    - **Syntax**: `ignore-channel <add | show | remove>`
+  - **ignore-member**: Ignore a member from using the bot.
+    - **Syntax**: `ignore-member <add | show | remove>`
 ## Logging
 ### Commands
   - **message-delete**: Triggers the event when a message is deleted.
