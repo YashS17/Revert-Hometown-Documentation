@@ -2,7 +2,7 @@
 Revert Hometown is a feature packed bot with auto moderation, logging, welcome and leave message, ticket, suggestions, nickname filter, account age, auto roles, voice roles, auto purge and more!
 # Features
 ## Account Age
-### > Commands
+### Commands
   - **account-age**: Members joining the server with account age less than 7 days are banned automatically.
     - **Syntax**: `account-age <enable | threshold | show | disable>`
 ### Configuration
