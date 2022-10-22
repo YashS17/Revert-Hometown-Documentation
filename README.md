@@ -1,6 +1,12 @@
 # About
 Revert Hometown is a feature packed bot with auto moderation, logging, welcome and leave message, ticket, suggestions, nickname filter, account age, auto roles, voice roles, auto purge and more!
 # Features
+## Account Age
+### Commands
+  - **account-age**: Members joining the server with account age less than 7 days are banned automatically.
+    - **Syntax**: `account-age <enable | threshold | show | disable>`
+### Configuration
+  - Customisable account age threshold (`account-age threshold days`).
 ## Auto Moderation
 ### Commands
   - **anti-profanity**: Removes the message of members when they post a blacklisted word.
@@ -21,6 +27,26 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - Customisable mute duration.
   - Add a custom blacklisted word (`automod anti-profanity blacklist <word>`).
   - Add a custom whitelisted link (`automod anti-link whitelist <link>`).
+## Auto Purge
+### Commands
+  - **auto-purge**: New messages sent in a channel are deleted after certain duration.
+    - **Syntax**: `auto-purge <enable | show | disable>`
+### Configuration
+  - Customisable duration after which the message will get deleted.
+## Auto Responder
+### Commands
+  - **auto-responder**: Trigger a auto responder
+    - **Syntax**: `auto-responder <create | strict | startswith | endswith | toggle | list | edit | delete>`
+### Configurations
+  - Create any type of wildcard (`strict`, `startswith` and `endswith`).
+  - Enable/disable a auto responder.
+## Auto Roles
+### Commands
+  - **auto-role**: A role which will be assigned to humans/bots on joining the server.
+    - **Syntax**: `auto-role <add | delay | show | remove>`
+### Configurations
+  - Different roles for bots and humans.
+  - Customisable delay after which the role will be assigned to the members.
 ## Logging
 ### Commands
   - **message-delete**: Triggers the event when a message is deleted.
@@ -52,6 +78,33 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - Specific channel for each event.
   - Detects new member's (to Discord) joining the server.
   - Disable all the logging events with one command (`logging disable-all`).
+## Nickname Filter
+### Commands
+  - **nickname-filter**: Members joining the server with blacklisted nicknames are automatically banned from the server.
+    - **Syntax**: `nickname-filter <enable | blacklist | whitelist | show | disable>`
+### Configuration
+  - Add a blacklisted nickname (`nickname-filter blacklist <word>`).
+## Suggestions
+### Commands
+  - **suggestions**: Enable or disable suggestions in the server.
+    - **Syntax**: `suggestions <set | approve | deny | delete | anonymous | show | disable>`
+### Configuration
+  - Approve or deny a member's suggestion.
+  - Allow members to send suggestions anonymously.
+## Ticket
+### Commands
+  - **ticket-config**: Ticket configuration of the server.
+    - **Syntax**: `ticket-config <enable | message | panel | add-access | remove-access | rename | show | disable>`
+  - **ticket**: Create, save, close or delete a ticket.
+    - **Syntax**: `ticket <open | transcript | close | reopen | delete>`
+### Configurations
+  - Create a ticket panel (`ticket-config panel <create | show | delete>`).
+  - Custom message which will be displayed in the ticket.
+  - Add/remove access of a member from the ticket.
+## Voice Roles
+### Commands
+  - **voice-role**: A role which will be assigned to members on joining Voice Channels.
+    - **Syntax**: `voice-role <add | show | remove>`
 ## Welcome and Leave
 ### Commands
   - **welcome**: Sends a message when a member joins the server.
@@ -67,56 +120,3 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - `(server.member_count)`: Server's member count.
 ### Configuration
   - Set a custom message.
-## Ticket
-### Commands
-  - **ticket-config**: Ticket configuration of the server.
-    - **Syntax**: `ticket-config <enable | message | panel | add-access | remove-access | rename | show | disable>`
-  - **ticket**: Create, save, close or delete a ticket.
-    - **Syntax**: `ticket <open | transcript | close | reopen | delete>`
-### Configurations
-  - Create a ticket panel (`ticket-config panel <create | show | delete>`).
-  - Custom message which will be displayed in the ticket.
-  - Add/remove access of a member from the ticket.
-## Suggestions
-### Commands
-  - **suggestions**: Enable or disable suggestions in the server.
-    - **Syntax**: `suggestions <set | approve | deny | delete | anonymous | show | disable>`
-### Configuration
-  - Approve or deny a member's suggestion.
-  - Allow members to send suggestions anonymously.
-## Nickname Filter
-### Commands
-  - **nickname-filter**: Members joining the server with blacklisted nicknames are automatically banned from the server.
-    - **Syntax**: `nickname-filter <enable | blacklist | whitelist | show | disable>`
-### Configuration
-  - Add a blacklisted nickname (`nickname-filter blacklist <word>`).
-## Account Age
-### Commands
-  - **account-age**: Members joining the server with account age less than 7 days are banned automatically.
-    - **Syntax**: `account-age <enable | threshold | show | disable>`
-### Configuration
-  - Customisable account age threshold (`account-age threshold days`).
-## Auto Roles
-### Commands
-  - **auto-role**: A role which will be assigned to humans/bots on joining the server.
-    - **Syntax**: `auto-role <add | delay | show | remove>`
-### Configurations
-  - Different roles for bots and humans.
-  - Customisable delay after which the role will be assigned to the members.
-## Voice Roles
-### Commands
-  - **voice-role**: A role which will be assigned to members on joining Voice Channels.
-    - **Syntax**: `voice-role <add | show | remove>`
-## Auto Purge
-### Commands
-  - **auto-purge**: New messages sent in a channel are deleted after certain duration.
-    - **Syntax**: `auto-purge <enable | show | disable>`
-### Configuration
-  - Customisable duration after which the message will get deleted.
-## Auto Responder
-### Commands
-  - **auto-responder**: Trigger a auto responder
-    - **Syntax**: `auto-responder <create | strict | startswith | endswith | toggle | list | edit | delete>`
-### Configurations
-  - Create any type of wildcard (`strict`, `startswith` and `endswith`).
-  - Enable/disable a auto responder.
