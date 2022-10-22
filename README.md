@@ -80,7 +80,7 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
 ## Suggestions
 ### Commands
   - **Suggestions**: Enable or disable suggestions in the server.
-    - **Syntax**: `suggestions <set | approve | deny | anonymous | show | disable>`
+    - **Syntax**: `suggestions <set | approve | deny | delete | anonymous | show | disable>`
 ### Configuration
   - Approve or deny a member's suggestion.
   - Allow members to send suggestions anonymously.
