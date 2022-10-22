@@ -137,3 +137,7 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - `(server.member_count)`: Server's member count.
 ### Configuration
   - Set a custom message.
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
