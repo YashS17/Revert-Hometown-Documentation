@@ -23,29 +23,29 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
   - Add a custom whitelisted link (`automod anti-link whitelist <link>`).
 ## Logging
 ### Commands
-  - **Message Delete**: Triggers the event when a message is deleted.
+  - **message-delete**: Triggers the event when a message is deleted.
     - **Syntax**: `logging messagedelete [channel]`
-  - **Message Edit**: Triggers the event when a message is edited.
+  - **message-edit**: Triggers the event when a message is edited.
     - **Syntax**: `logging messageedit [channel]`
-  - **Member Update**: Triggers the event when a member's profile is updated. (Like: Discriminator, name, nickname, roles and avatar.)
+  - **member-update**: Triggers the event when a member's profile is updated. (Like: Discriminator, name, nickname, roles and avatar.)
     - **Syntax**: `logging memberupdate [channel]`
-  - **Member Bans**: Triggers the event when a member is banned/unbanned from the server.
+  - **member-bans**: Triggers the event when a member is banned/unbanned from the server.
     - **Syntax**: `logging memberbans [channel]`
-  - **Member Kick**: Triggers the event when a member is kicked from the server.
+  - **member-kick**: Triggers the event when a member is kicked from the server.
     - **Syntax**: `logging memberkick [channel]`
-  - **Server Update**: Triggers the event when the server is updated. (Like: Name, avatar, inactive channel, widget, etc.)
+  - **server-update**: Triggers the event when the server is updated. (Like: Name, avatar, inactive channel, widget, etc.)
     - **Syntax**: `logging serverupdate [channel]`
-  - **Voice Update**: Triggers the event when a member is joining/moving/leaving between Voice channels.
+  - **voice-update**: Triggers the event when a member is joining/moving/leaving between Voice channels.
     - **Syntax**: `logging voiceupdate [channel]`
-  - **Roles**: Triggers the event when a role is created/updated/deleted.
+  - **roles**: Triggers the event when a role is created/updated/deleted.
     - **Syntax**: `logging roles [channel]`
-  - **Channels**: Triggers the event when a channel is created/updated/deleted.
+  - **channels**: Triggers the event when a channel is created/updated/deleted.
     - **Syntax**: `logging channels [channel]`
-  - **Threads**: Triggers the event when a thread is created/updated/deleted.
+  - **threads**: Triggers the event when a thread is created/updated/deleted.
     - **Syntax**: `logging threads [channel]`
-  - **Join/Leave**: Triggers the event when a member is joining/leaving the server.
+  - **join-leave**: Triggers the event when a member is joining/leaving the server.
     - **Syntax**: `logging joinleave [channel]`
-  - **Automod**: Triggers the event when an auto moderation avitvity takes place.
+  - **automod**: Triggers the event when an auto moderation avitvity takes place.
     - **Syntax**: `logging automod [channel]`
 ### Configurations
   - Ignore a channel/member/role for logging activities.
