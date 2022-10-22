@@ -3,17 +3,17 @@ Revert Hometown is a feature packed bot with auto moderation, logging, welcome a
 # Features
 ## Auto Moderation
 ### Commands
-  - **Anti Profanity**: Removes the message of members when they post a blacklisted word.
+  - **anti-profanity**: Removes the message of members when they post a blacklisted word.
     - **Syntax**: `automod anti-profanity <enable | punishment | punish-count | blacklist | whitelist | ignore | unignore | show | disable>`
-  - **Anti Link**: Removes the message of members when they post a link.
+  - **anti-link**: Removes the message of members when they post a link.
     - **Syntax**: `automod anti-link <enable | punishment | whitelist | blacklist | ignore | unignore | show | disable>`
-  - **Anti Caps**: Removes the message of members that have 70% of their characters capitalized.
+  - **anti-caps**: Removes the message of members that have 70% of their characters capitalized.
     - **Syntax**: `automod anti-caps <enable| punishment | ignore | unignore | show | disable>`
-  - **Anti Spam**: Removes the message of members when they spam. Triggers when a member sends 5 messages during a 5 seconds timespan.
+  - **anti-spam**: Removes the message of members when they spam. Triggers when a member sends 5 messages during a 5 seconds timespan.
     - **Syntax**: `automod anti-spam <enable | punishment | ignore | unignore | show | disable>`
-  - **Attachment Spam**: Removes the message of members when they spam attachments.
+  - **attachment-spam**: Removes the message of members when they spam attachments.
     - **Syntax**: `automod attachment-spam <enable | punishment | punish-count | ignore | unignore | show | disable>`
-  - **Mention Spam**: Removes the message of members when they spam mentions.
+  - **mention-spam**: Removes the message of members when they spam mentions.
     - **Syntax**: `automod mention-spam <enable | punishment | punish-count | ignore | unignore | show | disable>`
 ### Configurations
   - Ignore a channel/member/role for each auto moderation activity.
